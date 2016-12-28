@@ -12,6 +12,10 @@
 		1EA78A881E136EB600077592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A861E136EB600077592 /* Main.storyboard */; };
 		1EA78A8A1E136EB600077592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A891E136EB600077592 /* Assets.xcassets */; };
 		1EA78A8D1E136EB600077592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A8B1E136EB600077592 /* LaunchScreen.storyboard */; };
+		1EA78A951E136EC800077592 /* Background Images in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A941E136EC800077592 /* Background Images */; };
+		1EA78A991E13783200077592 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A961E13783200077592 /* Blood.png */; };
+		1EA78A9A1E13783200077592 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A971E13783200077592 /* Moon.png */; };
+		1EA78A9B1E13783200077592 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78A981E13783200077592 /* Sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1EA78A891E136EB600077592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA78A8C1E136EB600077592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA78A8E1E136EB600077592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA78A941E136EC800077592 /* Background Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Background Images"; sourceTree = "<group>"; };
+		1EA78A961E13783200077592 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blood.png; path = "Background Images/Blood.png"; sourceTree = "<group>"; };
+		1EA78A971E13783200077592 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moon.png; path = "Background Images/Moon.png"; sourceTree = "<group>"; };
+		1EA78A981E13783200077592 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = "Background Images/Sun.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		1EA78A811E136EB600077592 /* EzWeather */ = {
 			isa = PBXGroup;
 			children = (
+				1EA78A961E13783200077592 /* Blood.png */,
+				1EA78A971E13783200077592 /* Moon.png */,
+				1EA78A981E13783200077592 /* Sun.png */,
+				1EA78A941E136EC800077592 /* Background Images */,
 				1EA78A821E136EB600077592 /* AppDelegate.swift */,
 				1EA78A841E136EB600077592 /* ViewController.swift */,
 				1EA78A861E136EB600077592 /* Main.storyboard */,
@@ -123,9 +135,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA78A9A1E13783200077592 /* Moon.png in Resources */,
+				1EA78A991E13783200077592 /* Blood.png in Resources */,
 				1EA78A8D1E136EB600077592 /* LaunchScreen.storyboard in Resources */,
+				1EA78A9B1E13783200077592 /* Sun.png in Resources */,
 				1EA78A8A1E136EB600077592 /* Assets.xcassets in Resources */,
 				1EA78A881E136EB600077592 /* Main.storyboard in Resources */,
+				1EA78A951E136EC800077592 /* Background Images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
